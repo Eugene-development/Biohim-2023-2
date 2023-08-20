@@ -35,7 +35,7 @@ export default function index() {
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <div className="bg-cyan-400 p-3 rounded-full flex items-center">
+          <div className=" bg-lime-400 p-3 rounded-full flex items-center">
             <svg
               className="h-4 w-4 sm:h-7 sm:w-7 text-gray-800"
               fill="none"

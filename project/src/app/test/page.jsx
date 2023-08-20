@@ -1,6 +1,12 @@
 "use client";
 import { FadeIn } from "@/func/motion/FadeIn";
-
+export const metadata = {
+  title: 'Фабрика',
+  description: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  robots: {
+    index: false
+  },
+};
 export default function page() {
   return (
     <div className="bg-gray-900">

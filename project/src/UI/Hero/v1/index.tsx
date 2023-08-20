@@ -23,7 +23,7 @@ export default () => {
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               <span>Хотите узнать больше о нашей продукции? </span>
-              <a href="#" className="font-semibold text-cyan-500">
+              <a href="#" className="font-semibold text-lime-500">
                 <span className=" inset-0 ml-2 " aria-hidden="true" />
                 Подробнее{" "}
                 <span aria-hidden="true" className="ml-1">
@@ -44,7 +44,7 @@ export default () => {
             <div className="mt-10 flex items-center justify-left gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-cyan-500 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-cyan-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-400"
+                className="rounded-md bg-lime-500 px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-400"
               >
                 Запросить цену
               </a>
