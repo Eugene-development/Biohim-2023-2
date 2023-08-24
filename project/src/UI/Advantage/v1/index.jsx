@@ -6,7 +6,7 @@ export default function index() {
       <div className="py-8 px-4 mx-auto max-w-full lg:py-16 lg:px-20">
         <div className=" mb-8 lg:mb-16">
           <h2 className="mb-4 text-center text-7xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Наши преимущества22222
+            Наши преимущества
           </h2>
           <p className="font-light text-center text-gray-500 sm:text-xl dark:text-gray-400">
             We use an agile approach to test assumptions and connect with the
