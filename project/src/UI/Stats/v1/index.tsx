@@ -15,36 +15,25 @@ export default () => {
               Компания &#171;БИОХИМ&#187;
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Компания "БИОХИМ" занимается оптовой торговлей химической продукцией и, в частности, медицинской и технической перекисью водорода.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Мы являемся надёжным и лояльным контрагентом, с которым можно иметь длительные деловые отношения.
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
-            </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Приглашаем Вас к взаимовыгодному сотрудничеству на постоянной основе.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <Link
-                href="/about"
-                className="rounded-full bg-lime-500 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                href="/contacts"
+                className="rounded-full bg-lime-500 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Читать подробнее
+                Наши контакты 
               </Link>
             </div>
           </div>
 
-          <dl className="mt-16 -mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3">
+          <dl className="mt-16 -mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3 shadow-2xl">
             {stats.map((stat) => (
               <div key={stat.id} className=" flex flex-col bg-indigo-950 p-8">
                 <dd className=" order-first text-4xl font-semibold tracking-tight text-lime-200">

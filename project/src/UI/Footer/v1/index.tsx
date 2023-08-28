@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default () => {
   return (
-    <footer className="bg-indigo-950">
+    <footer className="bg-gray-900">
       <div className="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
         <div className="gap-8 space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:space-y-0">
           <address className="not-italic">
