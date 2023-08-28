@@ -21,7 +21,7 @@ const cards = [
 export default () => {
   return (
     <div className="relative isolate overflow-hidden bg-gray-50 py-24 sm:py-32">
-      {/* <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
+      <div className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
         <div
           className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
           style={{
@@ -38,12 +38,12 @@ export default () => {
               'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
           }}
         />
-      </div> */}
+      </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Контактные данные</h2>
           <p className="mt-6 text-lg leading-8 text-gray-700">
-            Компания "БИОХИМ" занимается оптовой торговлей химической продукцией и, в частности, медицинской и технической перекисью водорода. Мы являемся надёжным и лояльным контрагентом, с которым можно иметь длительные деловые отношения. Приглашаем Вас к взаимовыгодному сотрудничеству на постоянной основе.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odio corrupti voluptas ipsum maxime nulla dolorem ullam nesciunt esse quam ex ipsam perspiciatis, expedita culpa. Id maiores dolorem minus illo.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">

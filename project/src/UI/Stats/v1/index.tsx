@@ -14,13 +14,13 @@ export default () => {
             <h1 className="mt-24 text-4xl font-bold tracking-tight text-indigo-950 sm:mt-10 sm:text-6xl">
               Компания &#171;БИОХИМ&#187;
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-base leading-8 text-gray-600">
               Компания "БИОХИМ" занимается оптовой торговлей химической продукцией и, в частности, медицинской и технической перекисью водорода.
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-base leading-8 text-gray-600">
               Мы являемся надёжным и лояльным контрагентом, с которым можно иметь длительные деловые отношения.
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-base leading-8 text-gray-600">
               Приглашаем Вас к взаимовыгодному сотрудничеству на постоянной основе.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
