@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <head>
         {/* <link rel="icon" href="../logo/favicon.ico" sizes="any" /> */}
         <script src="//code.jivo.ru/widget/yZuDqsMQDU" async></script>
