@@ -5,10 +5,10 @@ export default function index() {
     <section className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-full lg:py-16 lg:px-20">
         <div className=" mb-8 lg:mb-16">
-          <h2 className="mb-4 text-center text-7xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Наши преимущества111
+          <h2 className="mb-4 text-center text-2xl md:text-7xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            Наши преимущества
           </h2>
-          <p className="font-light text-center text-gray-500 sm:text-xl dark:text-gray-400">
+          <p className="font-light text-center text-gray-500 text-sm sm:text-xl dark:text-gray-400">
             We use an agile approach to test assumptions and connect with the
             needs of your audience early and often.
           </p>
@@ -20,8 +20,7 @@ export default function index() {
           alt="продукция"
         />
 
-        <div className="">
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="px-4 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
               <div className="mx-auto bg-lime-300 p-3 h-24 w-24 rounded-full flex items-center">
                 <svg
@@ -40,7 +39,7 @@ export default function index() {
                 </svg>
               </div>
               <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                Гибко и информативно 
+                Гибко и информативно Гибко и информативно 
               </p>
             </div>
             <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -61,7 +60,7 @@ export default function index() {
                 </svg>
               </div>
               <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                Гибко и информативно 
+                Гибко и информативно Гибко и информативно 
               </p>
             </div>
             <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -82,7 +81,7 @@ export default function index() {
                 </svg>
               </div>
               <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                Гибко и информативно 
+                Гибко и информативно Гибко и информативно 
               </p>
             </div>
             <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -103,11 +102,10 @@ export default function index() {
                 </svg>
               </div>
               <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-                Гибко и информативно 
+                Гибко и информативно Гибко и информативно 
               </p>
             </div>
           </div>
-        </div>
       </div>
     </section>
   );

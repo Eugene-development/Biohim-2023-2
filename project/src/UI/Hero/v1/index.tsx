@@ -32,7 +32,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="text-left p-4 bg-gray-950/10">
+          <div className="text-left bg-gray-950/20">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-7xl">
               Оптовая продажа перекиси водорода
             </h1>

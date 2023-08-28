@@ -6,18 +6,18 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Главная", href: "/" },
-  { name: "Продукция", href: "/test" },
-  { name: "Цены", href: "/" },
-  { name: "Информация", href: "/" },
-  { name: "Контакты", href: "/" },
+  { name: "Продукция", href: "/production" },
+  { name: "Цены", href: "/price" },
+  { name: "Информация", href: "/information" },
+  { name: "Контакты", href: "/contacts" },
 ];
 export default function index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0  z-50 ">
+    <header className=" absolute inset-x-0 z-50">
       <div
-        className="flex items-center justify-between p-6 lg:px-8 "
+        className=" flex items-center justify-between p-6 lg:px-16 "
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -64,7 +64,7 @@ export default function index() {
       </div>
       {/* --- */}
       <nav
-        className="flex mx-8 items-center justify-between py-2 lg:py-4 border-b border-indigo-300"
+        className="flex px-16 items-center justify-between py-2 lg:py-4 border-b border-indigo-300"
         aria-label="Global"
       >
         <div className="flex lg:hidden">

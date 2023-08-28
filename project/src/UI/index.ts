@@ -4,3 +4,4 @@ export { default as Hero } from "./Hero/v1";
 export { default as Stats } from "./Stats/v1";
 export { default as Direction } from "./Direction/v2";
 export { default as Advantage } from "./Advantage/v1";
+export { default as Products } from "./Products/v1";
