@@ -33,7 +33,8 @@ export default () => {
             </div>
           </div>
 
-          <dl className="mt-16 -mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3 shadow-2xl">
+<div className="hidden md:block">
+            <dl className=" mt-16 -mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-3 shadow-2xl">
             {stats.map((stat) => (
               <div key={stat.id} className=" flex flex-col bg-indigo-950 p-8">
                 <dd className=" order-first text-4xl font-semibold tracking-tight text-lime-200">
@@ -46,6 +47,9 @@ export default () => {
               </div>
             ))}
           </dl>
+
+
+</div>
         </div>
         <div className="z-40 relative lg:col-span-5 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
           <img
