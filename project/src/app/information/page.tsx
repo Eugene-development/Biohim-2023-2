@@ -1,5 +1,5 @@
 import { FadeIn } from "@/func/motion/FadeIn";
-
+import { Information } from "@/UI";
 export default function page() {
   return (
     <div className="bg-gray-900">
@@ -23,9 +23,7 @@ export default function page() {
         </div>
         <div className=" bg-white mt-48">
           <FadeIn>
-            <div className=" max-w-full py-32 sm:py-48 lg:py-56 bg-gray-100">
-              <p>Информация</p>
-            </div>
+            <Information />
           </FadeIn>
         </div>
         <div

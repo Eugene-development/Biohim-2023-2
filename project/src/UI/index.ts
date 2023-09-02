@@ -7,3 +7,4 @@ export { default as Advantage } from "./Advantage/v1";
 export { default as Products } from "./Products/v1";
 export { default as Actions } from "./Actions/v1";
 export { default as Contacts } from "./Contacts/v1";
+export { default as Information } from "./Information/v1";
