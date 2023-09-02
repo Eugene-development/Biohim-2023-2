@@ -22,11 +22,11 @@ export default function page() {
           />
         </div>
         <div className=" bg-white  mt-48">
-        <FadeIn>
-          <div className=" max-w-full py-32 sm:py-48 lg:py-56 bg-gray-100">
-<p>Информация</p>   
-       </div>
-        </FadeIn>
+          <FadeIn>
+            <div className=" max-w-full py-32 sm:py-48 lg:py-56 bg-gray-100">
+              <p>Информация</p>
+            </div>
+          </FadeIn>
         </div>
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
@@ -42,5 +42,5 @@ export default function page() {
         </div>
       </div>
     </div>
-  )
+  );
 }

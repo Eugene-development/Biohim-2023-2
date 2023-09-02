@@ -23,9 +23,9 @@ export default function page() {
           />
         </div>
         <div className=" bg-white  mt-48">
-        <FadeIn>
-          <Products/> 
-        </FadeIn>
+          <FadeIn>
+            <Products />
+          </FadeIn>
         </div>
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
@@ -41,5 +41,5 @@ export default function page() {
         </div>
       </div>
     </div>
-  )
+  );
 }
