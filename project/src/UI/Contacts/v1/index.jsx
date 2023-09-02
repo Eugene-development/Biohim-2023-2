@@ -59,7 +59,7 @@ export default () => {
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
             <LifebuoyIcon
-              className="h-7 w-5 flex-none text-cyan-400"
+              className="h-7 w-5 flex-none text-cyan-900"
               aria-hidden="true"
             />
             <div className="text-base leading-7">
@@ -71,7 +71,7 @@ export default () => {
           </div>
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
             <LifebuoyIcon
-              className="h-7 w-5 flex-none text-cyan-400"
+              className="h-7 w-5 flex-none text-cyan-900"
               aria-hidden="true"
             />
             <div className="text-base leading-7">
@@ -82,7 +82,7 @@ export default () => {
           </div>
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
             <LifebuoyIcon
-              className="h-7 w-5 flex-none text-cyan-400"
+              className="h-7 w-5 flex-none text-cyan-900"
               aria-hidden="true"
             />
             <div className="text-base leading-7">
@@ -103,7 +103,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-cyan-500"
+                  className="h-5 w-5 text-cyan-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -124,7 +124,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-cyan-500"
+                  className="h-5 w-5 text-cyan-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -143,7 +143,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-cyan-500"
+                  className="h-5 w-5 text-cyan-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
@@ -164,7 +164,7 @@ export default () => {
             <li className="flex items-start lg:col-span-1">
               <div className="flex-shrink-0">
                 <svg
-                  className="h-5 w-5 text-cyan-500"
+                  className="h-5 w-5 text-cyan-900"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
