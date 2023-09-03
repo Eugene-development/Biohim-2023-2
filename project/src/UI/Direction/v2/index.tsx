@@ -5,10 +5,10 @@ export default function index() {
     <section className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-full lg:py-16 lg:px-20">
         <div className=" mb-8 lg:mb-16">
-          <h2 className="mb-4 text-2xl md:text-4xl lg:text-7xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-center text-3xl md:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Наши направления
           </h2>
-          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+          <p className="font-light text-center text-gray-500 text-sm sm:text-xl dark:text-gray-400">
             We use an agile approach to test assumptions and connect with the
             needs of your audience early and often.
           </p>

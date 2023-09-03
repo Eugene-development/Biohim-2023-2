@@ -10,8 +10,8 @@ export default () => {
     <div className="relative bg-white">
       <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-16">
         <div className="z-50 px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-24 xl:col-span-6">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h1 className="mt-8 sm:mt-2  font-bold tracking-tight text-indigo-950 text-2xl  sm:text-4xl">
+          <div className="mx-auto max-w-3xl lg:mx-0">
+            <h1 className="mt-8 sm:mt-2 font-bold tracking-tight text-indigo-950 text-3xl sm:text-4xl lg:text-5xl ">
               Компания &#171;БИОХИМ&#187;
             </h1>
             <p className="mt-6 text-base leading-8 text-gray-600">
@@ -41,7 +41,7 @@ export default () => {
           </div>
 
           <div className="hidden md:block">
-            <dl className=" mt-16 -mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-1 lg:grid-cols-3 shadow-2xl">
+            <dl className=" mt-16 lg:-mr-32 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-1 lg:grid-cols-3 shadow-2xl">
               {stats.map((stat) => (
                 <div key={stat.id} className=" flex flex-col bg-indigo-950 p-8">
                   <dd className=" order-first text-4xl font-semibold tracking-tight text-lime-200">
