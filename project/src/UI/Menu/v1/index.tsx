@@ -24,7 +24,7 @@ export default function index() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Компания Биохим</span>
             <img
-              className="h-16 w-auto"
+              className="h-12 sm:h-16 w-auto"
               src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
               alt="логотип"
             />
@@ -35,7 +35,7 @@ export default function index() {
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
-          <div className=" bg-cyan-400 p-3 rounded-full flex items-center">
+          <div className=" bg-lime-400 p-3 rounded-full flex items-center">
             <svg
               className="h-4 w-4 sm:h-7 sm:w-7 text-gray-800"
               fill="none"
@@ -61,13 +61,7 @@ export default function index() {
             </a>
           </div>
         </div>
-      </div>
-      {/* --- */}
-      <nav
-        className="flex px-16 items-center justify-between py-2 lg:py-4 "
-        // className="flex px-16 items-center justify-between py-2 lg:py-4 border-b border-indigo-300"
-        aria-label="Global"
-      >
+
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -81,6 +75,16 @@ export default function index() {
             </div>
           </button>
         </div>
+      </div>
+      {/* --- */}
+
+      
+      <nav
+        className="flex px-16 items-center justify-between py-2 lg:py-4 "
+        // className="flex px-16 items-center justify-between py-2 lg:py-4 border-b border-indigo-300"
+        aria-label="Global"
+      >
+        
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <Link

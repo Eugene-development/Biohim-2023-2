@@ -19,7 +19,7 @@ export default () => {
             }}
           />
         </div>
-        <div className=" max-w-4xl pl-12 py-32 sm:py-48 lg:py-56 ">
+        <div className=" max-w-4xl px-3 sm:px-12 cm:px-12 py-32 sm:py-48 lg:py-56 ">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               <span>Хотите узнать больше о нашей продукции? </span>
@@ -32,11 +32,11 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="p-4 text-left bg-gray-950/20">
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-7xl">
+          <div className="p-3 text-left bg-gray-950/30">
+            <h1 className="text-3xl font-bold tracking-tight text-white sm:text-7xl">
               Компания &#171;БИОХИМ&#187;
             </h1>
-            <p className="max-w-2xl mt-6 text-lg leading-8 text-gray-300">
+            <p className="max-w-2xl mt-6 text-base sm:text-lg leading-8 text-gray-50">
               Техническая и медицинская перекись водорода в канистрах 10л, 30л и
               в кубовых ёмкостях по оптовым ценам от заводов производителей с
               доставкой или самовывозом.
