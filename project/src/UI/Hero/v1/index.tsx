@@ -32,9 +32,9 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="text-left bg-gray-950/20">
+          <div className="p-4 text-left bg-gray-950/20">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-7xl">
-              Оптовая продажа перекиси водорода
+              Компания &#171;БИОХИМ&#187;
             </h1>
             <p className="max-w-2xl mt-6 text-lg leading-8 text-gray-300">
               Техническая и медицинская перекись водорода в канистрах 10л, 30л и
