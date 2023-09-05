@@ -111,7 +111,7 @@ export default function index() {
               <span className="sr-only">Компания Биохим</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
                 alt="логотип"
               />
             </Link>
@@ -139,10 +139,10 @@ export default function index() {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
+                  href="tel:+79302765650"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-lg font-semibold leading-7 text-white hover:bg-gray-800"
                 >
-                  Log in
+                  +7 (930) 276-56-50
                 </a>
               </div>
             </div>

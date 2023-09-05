@@ -45,18 +45,15 @@ export default () => {
         />
       </div> */}
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Контактные данные
-          </h2>
-          <p className="mt-6 text-base leading-8 text-gray-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            odio corrupti voluptas ipsum maxime nulla dolorem ullam nesciunt
-            esse quam ex ipsam perspiciatis, expedita culpa. Id maiores dolorem
-            minus illo.
-          </p>
+        <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              Контактные данные
+            </h2>
+            <p className="mb-8 font-light lg:text-xl">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati aliquid fuga id fugit nesciunt. 
+            </p>
         </div>
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 ">
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
             <LifebuoyIcon
               className="h-7 w-5 flex-none text-gray-900"
