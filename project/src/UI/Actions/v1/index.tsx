@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => {
   return (
-    <section className="bg-white dark:bg-gray-900  py-24 sm:py-32">
+    <section className="bg-white dark:bg-gray-900  py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">

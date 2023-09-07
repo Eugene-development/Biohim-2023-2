@@ -11,7 +11,7 @@ export default () => {
       <div className="mx-auto max-w-full lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-16">
         <div className="z-50 px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-16 xl:col-span-6">
           <div className="mx-auto max-w-3xl lg:mx-0">
-            <h1 className="mt-4 sm:mt-2 font-bold tracking-tight text-indigo-950 text-3xl sm:text-4xl lg:text-5xl ">
+            <h1 className="mt-4 sm:mt-2 font-bold  text-indigo-950 text-2xl sm:text-4xl lg:text-5xl ">
               Компания &#171;БИОХИМ&#187;
             </h1>
             <p className="mt-6 text-base leading-8 text-gray-600">

@@ -21,7 +21,7 @@ export default function page() {
             }}
           />
         </div>
-        <div className=" bg-white mt-48">
+        <div className=" bg-white mt-24 sm:mt-48">
           <FadeIn>
             <Information />
           </FadeIn>
