@@ -50,7 +50,7 @@ export default () => {
               Контактные данные
             </h2>
             <p className="mb-8 font-light lg:text-xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati aliquid fuga id fugit nesciunt. 
+              Связаться с нами вы можете любым удобным для вас способом по электронной почте, по телефону или личным визитом.
             </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 ">
