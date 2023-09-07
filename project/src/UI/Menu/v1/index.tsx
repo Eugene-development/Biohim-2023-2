@@ -78,13 +78,11 @@ export default function index() {
       </div>
       {/* --- */}
 
-      
       <nav
         className="flex px-16 items-center justify-between py-2 lg:py-4 "
         // className="flex px-16 items-center justify-between py-2 lg:py-4 border-b border-indigo-300"
         aria-label="Global"
       >
-        
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <Link

@@ -1,41 +1,41 @@
-import Link from "next/link"
+import Link from "next/link";
 const posts = [
   {
     id: 1,
-    title: 'Boost your conversion rate',
-    href: '/information/1',
+    title: "Boost your conversion rate",
+    href: "/information/1",
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Marketing", href: "#" },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
   {
     id: 2,
-    title: 'Boost your conversion rate',
-    href: '/information/2',
+    title: "Boost your conversion rate",
+    href: "/information/2",
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Marketing", href: "#" },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
   // More posts...
-]
+];
 
 export default () => {
   return (
@@ -43,15 +43,19 @@ export default () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              Информация о продукции
-            </h2>
-            <p className="mb-8 font-light lg:text-xl">
-              Связаться с нами вы можете любым удобным для вас способом по электронной почте, по телефону или личным визитом.
-            </p>
+            Информация о продукции
+          </h2>
+          <p className="mb-8 font-light lg:text-xl">
+            Связаться с нами вы можете любым удобным для вас способом по
+            электронной почте, по телефону или личным визитом.
+          </p>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16   sm:mt-16  lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
-            <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
+            <article
+              key={post.id}
+              className="flex max-w-xl flex-col items-start justify-between"
+            >
               <div className="flex items-center gap-x-4 text-xs">
                 {/* <time dateTime={post.datetime} className="text-gray-500">
                   {post.date}
@@ -70,7 +74,9 @@ export default () => {
                     {post.title}
                   </Link>
                 </h3>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
+                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                  {post.description}
+                </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
                 {/* <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" /> */}
@@ -89,5 +95,5 @@ export default () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

@@ -50,23 +50,39 @@ export default () => {
             <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
               Сайт
             </p>
-            
+
             <ul className="space-y-3 text-gray-50 dark:text-gray-400">
-              <li><Link href="/production" className="mb-3 text-gray-50 dark:text-gray-400">
-              Продукция
-              </Link>
+              <li>
+                <Link
+                  href="/production"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Продукция
+                </Link>
               </li>
-              <li><Link href="/actions" className="mb-3 text-gray-50 dark:text-gray-400">
-              Акция
-              </Link>
+              <li>
+                <Link
+                  href="/actions"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Акция
+                </Link>
               </li>
-              <li><Link href="/information" className="mb-3 text-gray-50 dark:text-gray-400">
-              Информация
-              </Link>
+              <li>
+                <Link
+                  href="/information"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Информация
+                </Link>
               </li>
-              <li><Link href="/contacts" className="mb-3 text-gray-50 dark:text-gray-400">
-              Контакты
-              </Link>
+              <li>
+                <Link
+                  href="/contacts"
+                  className="mb-3 text-gray-50 dark:text-gray-400"
+                >
+                  Контакты
+                </Link>
               </li>
             </ul>
           </div>

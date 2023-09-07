@@ -47,11 +47,12 @@ export default () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              Контактные данные
-            </h2>
-            <p className="mb-8 font-light lg:text-xl">
-              Связаться с нами вы можете любым удобным для вас способом по электронной почте, по телефону или личным визитом.
-            </p>
+            Контактные данные
+          </h2>
+          <p className="mb-8 font-light lg:text-xl">
+            Связаться с нами вы можете любым удобным для вас способом по
+            электронной почте, по телефону или личным визитом.
+          </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8 ">
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
@@ -74,7 +75,6 @@ export default () => {
             <div className="text-base leading-7">
               <h3 className="font-semibold text-gray-900">Телефон:</h3>
               <p className="mt-1 text-gray-700">+7 (930) 276-56-50</p>
-              
             </div>
           </div>
           <div className="flex gap-x-4 rounded-xl bg-white/5 ring-1 ring-inset ring-white/10">
