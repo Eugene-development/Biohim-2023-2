@@ -6,14 +6,14 @@ export default () => {
       <div className="p-4 py-6 mx-auto max-w-screen-xl md:p-8 lg:p-10">
         <div className="gap-8 space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:space-y-0">
           <address className="not-italic">
-            <p className="mb-6 text-sm font-semibold text-gray-50 uppercase dark:text-white">
+            <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
               Контакты
             </p>
-            <p className="mb-3 text-gray-50 dark:text-gray-400">
+            <p className="mb-3  text-gray-50 dark:text-gray-400">
               г. Москва,
               <br /> 3-й Угрешский проезд, дом 8
             </p>
-            <ul className="space-y-3 text-gray-50 dark:text-gray-400">
+            <ul className="pt-2 space-y-4 text-gray-50 dark:text-gray-400">
               <li className="flex items-center">
                 <svg
                   className="mr-2 w-5 h-5"
@@ -46,6 +46,30 @@ export default () => {
               </li>
             </ul>
           </address>
+          <div className="not-italic">
+            <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
+              Сайт
+            </p>
+            
+            <ul className="space-y-3 text-gray-50 dark:text-gray-400">
+              <li><Link href="/production" className="mb-3 text-gray-50 dark:text-gray-400">
+              Продукция
+              </Link>
+              </li>
+              <li><Link href="/actions" className="mb-3 text-gray-50 dark:text-gray-400">
+              Акция
+              </Link>
+              </li>
+              <li><Link href="/information" className="mb-3 text-gray-50 dark:text-gray-400">
+              Информация
+              </Link>
+              </li>
+              <li><Link href="/contacts" className="mb-3 text-gray-50 dark:text-gray-400">
+              Контакты
+              </Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="flex flex-col justify-between items-center lg:flex-row">
