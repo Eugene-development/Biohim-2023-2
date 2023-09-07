@@ -2,8 +2,17 @@ import React from "react";
 
 export default () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
-      
+    <section className="bg-white dark:bg-gray-900  py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+
+        <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              Наши акции
+            </h2>
+            <p className="mb-8 font-light lg:text-xl">
+              Связаться с нами вы можете любым удобным для вас способом по электронной почте, по телефону или личным визитом.
+            </p>
+        </div>
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         
         <div className="mr-auto place-self-center lg:col-span-7">
@@ -87,6 +96,7 @@ export default () => {
           />
         </div>
       </div>
+    </div>
     </section>
   );
 }

@@ -27,7 +27,18 @@ const productions = [
 
 export default () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-900 py-24 sm:py-32">
+
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+
+        <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              Предлагаемая продукция
+            </h2>
+            <p className="mb-8 font-light lg:text-xl">
+              Связаться с нами вы можете любым удобным для вас способом по электронной почте, по телефону или личным визитом.
+            </p>
+        </div>
       {productions.map((item) => (
         <div key={item.name} className="py-8 px-4 mx-auto space-y-12 max-w-screen-xl lg:space-y-20 sm:py-16 lg:px-6">
         <div className="items-center ">
@@ -73,6 +84,7 @@ export default () => {
 
 
       ))}
+      </div>
     </section>
   );
 };
