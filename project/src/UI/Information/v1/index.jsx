@@ -2,13 +2,13 @@ import Link from "next/link";
 const posts = [
   {
     id: 1,
-    title: "Boost your conversion rate",
+    title: "Медицинская перекись водорода. Применение.",
     href: "/information/1",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Применение", href: "#" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -19,13 +19,13 @@ const posts = [
   },
   {
     id: 2,
-    title: "Boost your conversion rate",
+    title: "Асептика. Тонкости изготовления продукта.",
     href: "/information/2",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Производство", href: "#" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -34,7 +34,125 @@ const posts = [
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
-  // More posts...
+  {
+    id: 2,
+    title: "Асептика. Тонкости изготовления продукта.",
+    href: "/information/2",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Производство", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Асептика. Тонкости изготовления продукта.",
+    href: "/information/2",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Производство", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Асептика. Тонкости изготовления продукта.",
+    href: "/information/2",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Производство", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Асептика. Тонкости изготовления продукта.",
+    href: "/information/2",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Производство", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Асептика. Тонкости изготовления продукта.",
+    href: "/information/2",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Производство", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Асептика. Тонкости изготовления продукта.",
+    href: "/information/2",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Производство", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    id: 2,
+    title: "Асептика. Тонкости изготовления продукта.",
+    href: "/information/2",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Производство", href: "#" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "#",
+      imageUrl:
+        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
 ];
 
 export default () => {
@@ -49,7 +167,7 @@ export default () => {
             Подробная информация о продукции, областях применения и процессах изготовления
           </p>
         </div>
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16   sm:mt-16  lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 sm:gap-y-20   sm:mt-16  lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
             <article
               key={post.id}
@@ -61,7 +179,7 @@ export default () => {
                 </time> */}
                 <Link
                   href={post.category.href}
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-cyan-600 hover:bg-gray-100"
                 >
                   {post.category.title}
                 </Link>
