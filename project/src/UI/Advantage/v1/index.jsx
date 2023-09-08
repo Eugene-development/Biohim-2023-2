@@ -39,7 +39,7 @@ export default function index() {
               </svg>
             </div>
             <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-              Гибко и информативно Гибко и информативно
+              Цены ниже по сравнению с нашими конкурентами
             </p>
           </div>
           <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -60,7 +60,7 @@ export default function index() {
               </svg>
             </div>
             <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-              Гибко и информативно Гибко и информативно
+              Доставка до объекта заказчика спецтранспортом
             </p>
           </div>
           <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -81,7 +81,7 @@ export default function index() {
               </svg>
             </div>
             <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-              Гибко и информативно Гибко и информативно
+              Проверенная концентрация отпускаемой продукции
             </p>
           </div>
           <div className="relative max-w-xl mx-auto z-40 p-8 bg-white rounded-2xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -102,7 +102,7 @@ export default function index() {
               </svg>
             </div>
             <p className="my-2 p-2 text-center text-lg font-bold tracking-tight text-gray-900 dark:text-white">
-              Гибко и информативно Гибко и информативно
+              Периодические скидки и акции постоянным клиентам
             </p>
           </div>
         </div>
