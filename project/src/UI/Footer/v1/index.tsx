@@ -86,19 +86,33 @@ export default () => {
               </li>
             </ul>
           </div>
+          <div className="not-italic">
+            <Link
+            href="/"
+            className="flex items-center mb-6 text-2xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
+          >
+            <img
+              className="h-48 w-auto"
+              src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
+              alt="логотип"
+            />
+          </Link>
+
+
+          </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="flex flex-col justify-between items-center lg:flex-row">
           <Link
             href="/"
-            className="flex items-center mb-6 text-2xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
+            className="flex items-center mb-6 text-xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
           >
             <img
               className="h-8 mr-3 w-auto"
               src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
               alt="логотип"
             />
-            Биохим
+            Компания &#171;Биохим&#187;
           </Link>
           <span className="block mb-4 text-sm text-gray-50 dark:text-gray-400 lg:mb-0">
             © 2021-2023{" "}
