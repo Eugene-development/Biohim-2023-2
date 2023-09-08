@@ -48,7 +48,7 @@ export default () => {
           </address>
           <div className="not-italic">
             <p className="mb-6 text-lg font-semibold text-gray-50 uppercase dark:text-white">
-              Сайт
+              Разделы сайта
             </p>
 
             <ul className="space-y-3 text-gray-50 dark:text-gray-400">
@@ -86,7 +86,7 @@ export default () => {
               </li>
             </ul>
           </div>
-          <div className="not-italic">
+          <div className="hidden lg:block pl-36 not-italic">
             <Link
             href="/"
             className="flex items-center mb-6 text-2xl font-semibold text-gray-50 lg:mb-0 dark:text-white"
