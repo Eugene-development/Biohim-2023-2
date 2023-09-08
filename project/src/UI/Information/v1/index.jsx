@@ -160,7 +160,7 @@ export default () => {
     <div className="bg-white py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl sm:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Информация о продукции
           </h2>
           <p className="mb-8 font-light lg:text-xl">
@@ -179,7 +179,7 @@ export default () => {
                 </time> */}
                 <Link
                   href={post.category.href}
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-cyan-600 hover:bg-gray-100"
+                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-cyan-700 hover:bg-gray-100"
                 >
                   {post.category.title}
                 </Link>
@@ -196,7 +196,7 @@ export default () => {
                 </p>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
-                {/* <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" /> */}
+                <img src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg" alt="логотип" className="h-10 w-10 rounded-full bg-gray-50" />
                 <div className="text-sm leading-6">
                   <p className="font-semibold text-gray-900">
                     <Link href={post.author.href}>

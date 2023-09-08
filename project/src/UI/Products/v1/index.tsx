@@ -1,21 +1,21 @@
 const productions = [
   {
-    name: "Affffff",
-    description: "Awswdwddefef",
-    characteristics: ["state", "character", "characteristic"],
-    resume: "kmrewvmijervmi",
+    name: "Перекись водорода медицинская",
+    description: "Применяется в медицинских целях",
+    characteristics: ["Концентрация 37%", "Фасовка кубы и канистры 10л", "В наличии"],
+    resume: "По вопросам приобретения обращайтесь к нашим менеджерам",
   },
   {
-    name: "Affffffйй",
-    description: "Awswdwddefef",
+    name: "Перекись водорода марка А-37%",
+    description: "Применяется в медицинских целях",
     characteristics: ["state", "character", "characteristic"],
-    resume: "kmrewvmijervmi",
+    resume: "По вопросам приобретения обращайтесь к нашим менеджерам",
   },
   {
-    name: "Affffffц",
-    description: "Awswdwddefef",
+    name: "Перекись водорода марка Б-37%",
+    description: "Применяется в медицинских целях",
     characteristics: ["state", "character", "characteristic"],
-    resume: "kmrewvmijervmi",
+    resume: "По вопросам приобретения обращайтесь к нашим менеджерам",
   },
 ];
 
@@ -24,7 +24,7 @@ export default () => {
     <section className="bg-white dark:bg-gray-900 py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 border-b border-gray-200 dark:border-gray-700">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl sm:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Предлагаемая продукция
           </h2>
           <p className="mb-8 font-light lg:text-xl">
@@ -38,13 +38,13 @@ export default () => {
           >
             <div className="items-center ">
               <div className="text-gray-500 sm:text-lg dark:text-gray-400">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
                   {item.name}
                 </h2>
                 <p className="mb-8 font-light lg:text-xl">{item.description}</p>
                 <ul
                   role="list"
-                  className="pt-8 my-7 space-y-5 border-t border-gray-200 dark:border-gray-700"
+                  className=" my-7 space-y-5 dark:border-gray-700"
                 >
                   {item.characteristics.map((character, index) => (
                     <li key={`item_${index}`} className="flex space-x-3">

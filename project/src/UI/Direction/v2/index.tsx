@@ -25,7 +25,7 @@ export default function index() {
                 Продукция
               </span>
               <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Техническая перекись
+                Медицинская перекись водорода
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
                 Over the past year, Volosoft has undergone many changes! After
@@ -45,7 +45,7 @@ export default function index() {
                 Продукция
               </span>
               <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Техническая перекись
+                Техническая перекись водорода
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
                 Over the past year, Volosoft has undergone many changes! After
@@ -65,7 +65,7 @@ export default function index() {
                 Продукция
               </span>
               <h2 className="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Техническая перекись
+                Асептическая перекись водорода
               </h2>
               <p className="mb-4 font-light text-gray-500 dark:text-gray-400">
                 Over the past year, Volosoft has undergone many changes! After
